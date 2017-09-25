@@ -1,0 +1,52 @@
+# AULA-ALGORITMOS
+AULA ALGORITMOS
+
+
+import java.util.Scanner;
+
+public class Principal {
+	public static void main(String[] args) {
+		System.out.println("Meu primeiro app Java!");
+
+
+		// CamelCase
+		// inteiro
+		int numeroInteiro = 10;
+
+		// logico V ou F
+		boolean verdadeiro = true;
+		boolean falso = false;
+
+		// caractere
+		String meuTexto = "Meu Texto";
+
+		// numerico
+		double meuNumero = 100.5;
+		
+		//Variaveis e Constantes
+		String minhaVariavel = "Variavel";
+		System.out.println(minhaVariavel);
+		
+		minhaVariavel = "Variavel 2";
+		System.out.println(minhaVariavel);
+		
+		final String minhaContante = "Constante";
+		
+		//Uma constante depois de iniciada nao muda
+		final String minhaConstante2;
+		minhaConstante2 = "constante 2";
+		
+		//  visualg
+		
+		Scanner meuLeia = new Scanner(System.in);
+		//escreva
+		System.out.println("Digite seu nome: ");
+		//leia
+		String nome = meuLeia.nextLine();
+		
+		System.out.println(nome);
+		
+		
+		
+	}
+}
